@@ -1,0 +1,21 @@
+# CLion project settings
+.idea/
+cmake-build-*/
+
+# CMake files excluding cmakelists
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Manual build folder and compiled targets
+build/
+bin/
+*.o
+*.a
+*.so
+drake_sim
+
+# logs
+data/
+*.csv
